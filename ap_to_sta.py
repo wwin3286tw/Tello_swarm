@@ -40,7 +40,7 @@ sent = sock.sendto(msg, tello_address)
 time.sleep(2)
 
 # 下一行請輸入熱點帳密，格式：ap SSID PASSWORD
-msg = 'ap Android 9999999999'.encode(encoding="utf-8") 
+msg = 'ap ArkLab 1357924680'.encode(encoding="utf-8") 
 sent = sock.sendto(msg, tello_address)
 time.sleep(2)
 
